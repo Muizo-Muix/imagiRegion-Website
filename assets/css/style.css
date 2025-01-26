@@ -9,7 +9,16 @@ body {
     to right,
     rgba(187, 0, 0, 0.5),
     rgba(78, 95, 255, 0.562)
-  );
+);
+}
+#logo1{
+  display: none;
+}
+.menu{
+  display: none;
+}
+#menu1{
+  display: none;
 }
 header nav {
   display: flex;
@@ -56,7 +65,7 @@ header nav div ul li a:hover {
   overflow: hidden;
 }
 #bdleft {
-  max-width: 60%;
+  width: 60%;
   margin-left: 5vw;
   padding-top: 24vh;
   padding-bottom: 12.9vh;
@@ -198,6 +207,7 @@ header nav div ul li a:hover {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
+    flex-wrap: wrap;
     padding: 18px;
     width: 100%;
     border-bottom: 2px solid white;
@@ -214,6 +224,30 @@ header nav div ul li a:hover {
     text-align: center;
     padding: 1em;
 }
+.hehe{
+  font-family: fontreal;
+}
+#man{
+  padding: 0% 10% 10% 10%;
+  font-family: logomenu;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+/*  justify-items: center;*/
+  align-items: baseline;
+  font-size: 1.5em;
+  margin-top: 100px;
+}
+#man div{
+  display: block;
+  padding: 1em;
+}
+/*.btn_pur_rm{
+  display: none;
+}
+.btn_re_rm{
+  display: none;
+}*/
 @font-face {
   font-family: fontreal;
   src: url(/assets/resourses_material/fonts/ADLaMDisplay-Regular.ttf);

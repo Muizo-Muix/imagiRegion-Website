@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -15,17 +16,33 @@
     <header>
       <nav>
         <div id="logo"><h1>imagiRegion</h1></div>
-        <div>
+        <div id="menu">
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">For Sale</a></li>
-            <li><a href="">For Rent</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#pur">For Sale</a></li>
+            <li><a href="index.html#third">For Rent</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="index.html#ft">Contact Us</a></li>
           </ul>
         </div>
+       <button id="menu_bar" class="menu">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
+      <button id="close_menu" class="menu">
+ <i class="fa fa-2x fa-times"></i>
+        </button>
       </nav>
     </header>
+    <div id="menu1">
+          <div id="logo1"><h1>imagiRegion</h1></div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#pur">For Sale</a></li>
+            <li><a href="#third">For Rent</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#ft">Contact Us</a></li>
+          </ul>
+        </div>
     <main id="bdmain">
       <section id="firstse">
         <div id="bdleft">
@@ -42,7 +59,7 @@
             your journey with us today and step into a world of possibilities!
           </p>
           <button id="lm">
-            <a href=""
+            <a href="about.html"
               >Learn more
               <i
                 style="font-size: 1em; vertical-align: middle"
@@ -52,7 +69,8 @@
           </button>
         </div>
       </section>
-      <section class="secondse">
+       </section>
+       <section class="secondse btn_pur_rm" id="pur">
         <div class="secon">
           <h1>Purchase properties</h1>
           <p>
@@ -64,12 +82,12 @@
         <div class="purpa">
           <div class="purcon one">
             <img
-              src="../assets/resourses_material/images/Nigerian-Land-Sizes-and-Measurement-1024x682.jpg"
+              src="../assets/resourses_material/images/5.webp"
               alt="LOL"
             />
             <div>
-              <h1>10 Marla Plot</h1>
-              <h1><i class="fas fa-map-marker-alt"></i> Chamkani Pehsawar</h1>
+              <h1>5 Marla Plot</h1>
+              <h1><i class="fas fa-map-marker-alt"></i> Saddar Pehsawar</h1>
               <h1>RS:500,000/-</h1>
             </div>
           </div>
@@ -81,26 +99,96 @@
             <div>
               <h1>10 Marla Plot</h1>
               <h1><i class="fas fa-map-marker-alt"></i> Chamkani Pehsawar</h1>
-              <h1>RS:500,000/-</h1>
+              <h1>RS:520,000/-</h1>
             </div>
           </div>
           <div class="purcon three">
             <img
-              src="../assets/resourses_material/images/Nigerian-Land-Sizes-and-Measurement-1024x682.jpg"
+              src="../assets/resourses_material/images/20.jpeg"
               alt="LOL"
             />
             <div>
-              <h1>10 Marla Plot</h1>
+              <h1>20 Marla Plot</h1>
+              <h1><i class="fas fa-map-marker-alt"></i> Board Road Pehsawar</h1>
+              <h1>RS:975,000/-</h1>
+            </div>
+          </div>
+        </div>
+        <div class="purpa">
+          <div class="purcon one">
+            <img
+              src="../assets/resourses_material/images/10a.jpeg"
+              alt="LOL"
+            />
+            <div>
+              <h1>10 Marla Appartment</h1>
+              <h1><i class="fas fa-map-marker-alt"></i> Fort Road Pehsawar</h1>
+              <h1>RS:200,000/-</h1>
+            </div>
+          </div>
+          <div class="purcon two">
+            <img
+              src="../assets/resourses_material/images/5.jpeg"
+              alt="LOL"
+            />
+            <div>
+              <h1>5 Marla Appartment</h1>
+              <h1><i class="fas fa-map-marker-alt"></i> Reti Bazar Pehsawar</h1>
+              <h1>RS:223,000/-</h1>
+            </div>
+          </div>
+          <div class="purcon three">
+            <img
+              src="../assets/resourses_material/images/50.jpeg"
+              alt="LOL"
+            />
+            <div>
+              <h1>17.5 Marla Appartment</h1>
+              <h1><i class="fas fa-map-marker-alt"></i> Tehkal Pehsawar</h1>
+              <h1>RS:510,000/-</h1>
+            </div>
+          </div>
+        </div>
+        <div class="purpa">
+          <div class="purcon one">
+            <img
+              src="../assets/resourses_material/images/5h.jpeg"
+              alt="LOL"
+            />
+            <div>
+              <h1>5 Marla House</h1>
               <h1><i class="fas fa-map-marker-alt"></i> Chamkani Pehsawar</h1>
-              <h1>RS:500,000/-</h1>
+              <h1>RS:2500,000/-</h1>
+            </div>
+          </div>
+          <div class="purcon two">
+            <img
+              src="../assets/resourses_material/images/10j.jpeg"
+              alt="LOL"
+            />
+            <div>
+              <h1>10 Marla House</h1>
+              <h1><i class="fas fa-map-marker-alt"></i> DHA Pehsawar</h1>
+              <h1>RS:7600,000/-</h1>
+            </div>
+          </div>
+          <div class="purcon three">
+            <img
+              src="../assets/resourses_material/images/l.jpeg"
+              alt="LOL"
+            />
+            <div>
+              <h1>20 Marla House</h1>
+              <h1><i class="fas fa-map-marker-alt"></i> Mehria Town Lahore</h1>
+              <h1>RS:9600,000/-</h1>
             </div>
           </div>
         </div>
         <div class="btnvm">
-          <button><a href="">View More</a></button>
+          <button><a target="_blank" href="https://www.google.com/search?q=properties+for+sale+in+pakistan&sca_esv=d645707ffb8e0e1d&sxsrf=AHTn8zoQfqoN28FlIevVK5P7edNUzQgCPQ%3A1737830912051&source=hp&ei=ADKVZ8M3jZuR1Q_kubWwDw&iflsig=ACkRmUkAAAAAZ5VAECHyk2db_J55Uo9iNvthC3F9DesX&ved=0ahUKEwjDt8LRxJGLAxWNTaQEHeRcDfYQ4dUDCBc&uact=5&oq=properties+for+sale+in+pakistan&gs_lp=Egdnd3Mtd2l6Ih9wcm9wZXJ0aWVzIGZvciBzYWxlIGluIHBha2lzdGFuMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkigalCDGVipZHABeACQAQCYAZMCoAGdNKoBBjAuMS4zMLgBA8gBAPgBAZgCIKACqDWoAgrCAgcQIxgnGOoCwgIEECMYJ8ICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxjRAxjHAcICCxAuGIAEGLEDGIMBwgIIEAAYgAQYsQPCAgsQABiABBixAxiKBcICDhAAGIAEGLEDGIMBGMkDwgILEAAYgAQYkgMYigXCAggQLhiABBixA5gDC_EF5Z1Tiukuc52SBwYxLjAuMzGgB-jFAQ&sclient=gws-wiz">View More</a></button>
         </div>
-      </section>
-      <section id="third" class="secondse">
+      </section> 
+      <section id="third" class="secondse btn_re_rm">
         <div id="thcon" class="secon">
           <h1>Rent properties</h1>
           <p>
@@ -112,13 +200,13 @@
         <div class="purpa">
           <div class="purcon one">
             <img
-              src="../assets/resourses_material/images/Nigerian-Land-Sizes-and-Measurement-1024x682.jpg"
+              src="../assets/resourses_material/images/5.webp"
               alt="LOL"
             />
             <div>
-              <h1>10 Marla Plot</h1>
-              <h1><i class="fas fa-map-marker-alt"></i> Chamkani Pehsawar</h1>
-              <h1>RS:500,000/-</h1>
+              <h1>5 Marla Plot</h1>
+              <h1><i class="fas fa-map-marker-alt"></i> Saddar Pehsawar</h1>
+              <h1>RS:24,000/-</h1>
             </div>
           </div>
           <div class="purcon two">
@@ -129,25 +217,96 @@
             <div>
               <h1>10 Marla Plot</h1>
               <h1><i class="fas fa-map-marker-alt"></i> Chamkani Pehsawar</h1>
-              <h1>RS:500,000/-</h1>
+              <h1>RS:32,000/-</h1>
             </div>
           </div>
           <div class="purcon three">
             <img
-              src="../assets/resourses_material/images/Nigerian-Land-Sizes-and-Measurement-1024x682.jpg"
+              src="../assets/resourses_material/images/20.jpeg"
               alt="LOL"
             />
             <div>
-              <h1>10 Marla Plot</h1>
+              <h1>20 Marla Plot</h1>
+              <h1><i class="fas fa-map-marker-alt"></i> Board Road Pehsawar</h1>
+              <h1>RS:43,000/-</h1>
+            </div>
+          </div>
+        </div>
+        <div class="purpa">
+          <div class="purcon one">
+            <img
+              src="../assets/resourses_material/images/10a.jpeg"
+              alt="LOL"
+            />
+            <div>
+              <h1>10 Marla Appartment</h1>
+              <h1><i class="fas fa-map-marker-alt"></i> Fort Road Pehsawar</h1>
+              <h1>RS:45,000/-</h1>
+            </div>
+          </div>
+          <div class="purcon two">
+            <img
+              src="../assets/resourses_material/images/5.jpeg"
+              alt="LOL"
+            />
+            <div>
+              <h1>5 Marla Appartment</h1>
+              <h1><i class="fas fa-map-marker-alt"></i> Reti Bazar Pehsawar</h1>
+              <h1>RS:15,000/-</h1>
+            </div>
+          </div>
+          <div class="purcon three">
+            <img
+              src="../assets/resourses_material/images/50.jpeg"
+              alt="LOL"
+            />
+            <div>
+              <h1>17.5 Marla Appartment</h1>
+              <h1><i class="fas fa-map-marker-alt"></i> Tehkal Pehsawar</h1>
+              <h1>RS:35,000/-</h1>
+            </div>
+          </div>
+        </div>
+        <div class="purpa">
+          <div class="purcon one">
+            <img
+              src="../assets/resourses_material/images/5h.jpeg"
+              alt="LOL"
+            />
+            <div>
+              <h1>5 Marla House</h1>
               <h1><i class="fas fa-map-marker-alt"></i> Chamkani Pehsawar</h1>
-              <h1>RS:500,000/-</h1>
+              <h1>RS:40,000/-</h1>
+            </div>
+          </div>
+          <div class="purcon two">
+            <img
+              src="../assets/resourses_material/images/10j.jpeg"
+              alt="LOL"
+            />
+            <div>
+              <h1>10 Marla House</h1>
+              <h1><i class="fas fa-map-marker-alt"></i> DHA Pehsawar</h1>
+              <h1>RS:50,000/-</h1>
+            </div>
+          </div>
+          <div class="purcon three">
+            <img
+              src="../assets/resourses_material/images/l.jpeg"
+              alt="LOL"
+            />
+            <div>
+              <h1>20 Marla House</h1>
+              <h1><i class="fas fa-map-marker-alt"></i> Mehria Town Lahore</h1>
+              <h1>RS:65,000/-</h1>
             </div>
           </div>
         </div>
         <div class="btnvm">
-          <button><a href="">View More</a></button>
+          <button><a target="_blank" href="https://www.google.com/search?q=properties+for+rent+in+pakistan&sca_esv=d645707ffb8e0e1d&sxsrf=AHTn8zoOq5DXcGYwoxzlVelsWVpCHKuiEg%3A1737830927460&ei=DzKVZ4fYG4zj7_UPkrHBuAU&ved=0ahUKEwjHm_HYxJGLAxWM8bsIHZJYEFcQ4dUDCBA&uact=5&oq=properties+for+rent+in+pakistan&gs_lp=Egxnd3Mtd2l6LXNlcnAiH3Byb3BlcnRpZXMgZm9yIHJlbnQgaW4gcGFraXN0YW4yBBAAGB4yCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTIIEAAYgAQYogRIphFQwAVYhgxwAXgBkAEAmAH2A6ABiwqqAQcyLTMuNS0xuAEDyAEA-AEBmAIDoAKoBMICChAAGLADGNYEGEfCAgYQABgHGB6YAwCIBgGQBgiSBwUxLjAuMqAH_hY&sclient=gws-wiz-serp">View More</a></button>
         </div>
       </section>
+     
     </main>
     <footer id="ft">
       <section id="ftsec">
@@ -176,5 +335,22 @@
     </section>
     <div id="ftcp">Copyright <i class="fa fa-copyright" aria-hidden="true" style="font-size: .8em;"></i> imagiRegion.com.All rights reserved.</div>
     </footer>
+    <script>
+      var menubar = document.getElementById("menu_bar");
+      var menu = document.getElementById("menu1");
+      var closemenu = document.getElementById("close_menu");
+
+      menubar.addEventListener("click", function () {
+        menu.style.left = "1em";
+        menubar.style.display = "none";
+        closemenu.style.display = "block";
+      });
+
+      closemenu.addEventListener("click", function () {
+        menu.style.left = "-620px";
+        menubar.style.display = "block";
+        closemenu.style.display = "none";
+      });
+    </script>
   </body>
 </html>

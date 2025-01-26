@@ -1,0 +1,80 @@
+@media screen and (min-width: 320px) and (max-width: 872px) {
+  body {
+    position: relative;
+  }
+  #logo1 h1 {
+    font-family: fontreal;
+    font-size: 10px;
+  }
+  #menu1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 3.7em;
+    left: 1em;
+    background-color: rgb(211, 211, 211);
+    z-index: 9999;
+    height: 40vh;
+    width: 400px;
+  }
+  #menu1 ul li {
+    padding: 10px;
+    text-decoration: none;
+    width: 100%;
+  }
+  #menu1 ul li a {
+    text-decoration: none;
+    font-family: logomenu;
+    color: black;
+    width: 100%;
+    font-size: 1.5em;
+  }
+  #menu {
+    display: none;
+    position: absolute;
+  }
+  #bdleft {
+    width: 83.5%;
+    margin-left: 5vw;
+    padding-top: 20vh;
+    padding-bottom: 1vh;
+  }
+
+  #bdleft p {
+    font-size: 1.88em;
+    font-family: logomenu;
+    color: rgb(255, 255, 255);
+  }
+
+  #logo h1 {
+    font-family: fontreal;
+    font-size: 2.2em;
+  }
+  .menu {
+    display: block;
+    padding: 10px;
+    right: 1em;
+    top: 8px;
+    position: absolute;
+    background-color: transparent;
+    font-size: 2em;
+    overflow: hidden;
+    align-self: center;
+  }
+  #close_menu i {
+    font-size: 1em;
+    overflow: hidden;
+  }
+
+  #menu_bar {
+    font-size: 1.88em;
+  }
+  #ftsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
