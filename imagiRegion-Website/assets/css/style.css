@@ -1,0 +1,258 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  border: none;
+  overflow-x: hidden;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(187, 0, 0, 0.5),
+    rgba(78, 95, 255, 0.562)
+);
+}
+#logo1{
+  display: none;
+}
+.menu{
+  display: none;
+}
+#menu1{
+  display: none;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: #f0eeee;
+  width: 100vw;
+  position: fixed;
+  top: 0%;
+  padding: 1vh;
+  margin-bottom: 0%;
+  z-index: 999;
+}
+header nav div ul li {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1.11em;
+}
+header nav div ul li a {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  font-family: logomenu;
+  font-size: 1.11em;
+}
+header nav div ul li a:hover {
+  color: red;
+}
+#logo h1 {
+  font-family: fontreal;
+  font-size: 2em;
+}
+#firstse {
+  display: flex;
+  background-image: url(../resourses_material/images/image\ 2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  overflow: hidden;
+}
+#bdleft {
+  width: 60%;
+  margin-left: 5vw;
+  padding-top: 24vh;
+  padding-bottom: 12.9vh;
+}
+#bdleft p {
+  font-size: 2.2em;
+  font-family: logomenu;
+  color: rgb(255, 255, 255);
+}
+#lm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 10px;
+  width: 160px;
+  height: 55px;
+  background-color: rgb(94, 110, 255);
+  border: 1px solid black;
+}
+#lm:hover {
+  background-color: rgb(36, 36, 255);
+}
+#lm a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  font-family: logomenu;
+}
+.secondse {
+  border-bottom: 2px solid white;
+}
+.secon {
+  margin-left: 4.5em;
+  margin-top: 2em;
+  width: 100vw;
+}
+#thcon{
+    margin-left: 30%;
+}
+#thcon h1{
+    width: 60%;
+    text-align: right;
+}
+#thcon p{
+    text-align: right;
+}
+.secon h1 {
+  font-family: fontreal;
+  font-size: 2.5em;
+}
+.secon p {
+  font-family: logomenu;
+  font-size: 1.5em;
+  width: 60%;
+}
+.purcon {
+  width: 550px;
+  background-color: #ffffff50;
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2em;
+  transition: all 0.3s ease-in-out;
+}
+.purcon div {
+  margin: 1em;
+  text-align: center;
+  font-family: logomenu;
+}
+.one img {
+  width: 500px;
+  display: block;
+  padding: 20px;
+}
+.two img {
+  width: 500px;
+  display: block;
+  padding: 20px;
+}
+.three img {
+  width: 500px;
+  display: block;
+  padding: 20px;
+}
+.purpa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2.22em;
+  width: 100vw;
+  margin-bottom: .8em;
+}
+.purcon:hover {
+  transform: scale(1.05);
+}
+.btnvm{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+.btnvm button{
+  width: 80vw;
+  height: 30px;
+  border-radius: 100px;
+  transition: all .3s ease;
+}
+.btnvm button a{
+    color: red;
+    text-decoration: none;
+    font-family: logomenu;
+    font-size: 1.35em;
+    transition: all .3s ease;
+}
+.btnvm button a:hover{
+    color: white;
+}
+.btnvm button a:hover{
+   background-color: black;
+}
+.btnvm button:hover{
+    background-color: black;
+}
+.fas {
+  font-size: 0.8em;
+}
+#logoft{
+    font-family: fontreal;
+    font-size: 2em;
+    color: white;
+    margin-top: 10px;
+}
+#ft{
+    background-color: black;
+}
+#ftsec{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 18px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    flex-wrap: wrap;
+}
+.ftcon{
+    font-family: logomenu;
+    color: #5993FF;
+}
+#ftcp{
+    color: white;
+    font-size: 1.22em;
+    font-family: fontreal;
+    text-align: center;
+    padding: 1em;
+}
+.hehe{
+  font-family: fontreal;
+}
+#man{
+  padding: 0% 10% 10% 10%;
+  font-family: logomenu;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+/*  justify-items: center;*/
+  align-items: baseline;
+  font-size: 1.5em;
+  margin-top: 100px;
+}
+#man div{
+  display: block;
+  padding: 1em;
+}
+/*.btn_pur_rm{
+  display: none;
+}
+.btn_re_rm{
+  display: none;
+}*/
+@font-face {
+  font-family: fontreal;
+  src: url(/assets/resourses_material/fonts/ADLaMDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: logomenu;
+  src: url(../resourses_material/fonts/Baloo2-Regular.ttf);
+}
